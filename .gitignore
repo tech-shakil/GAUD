@@ -1,0 +1,22 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch / Ultralytics runs & training logs
+runs/
+# Uncomment the line below if you prefer downloading YOLO weights on first run instead of committing them:
+# *.pt
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
